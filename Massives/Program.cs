@@ -14,10 +14,10 @@ namespace Massives
         public delegate void MassiveDelegate(int value, int value1, int[,] value2);
         static void Main(string[] args)
         {
-            Console.Write("Enter the number of rows: ");
+            Console.Write("Введiть номер ряду: ");
             var rows = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter the number of columns: ");
+            Console.Write("Введiть номер колонки: ");
             var columns = int.Parse(Console.ReadLine());
 
             int[,] array = new int[rows, columns];
@@ -33,7 +33,7 @@ namespace Massives
 
         public static void Division(int rows, int columns, int[,] array)
         {
-            Console.Write("The numbers which division in number 3 and number 7: ");
+            Console.Write("Числа, якi дiляться на числа 3 i 7: ");
 
             for (int i = 0; i < array.GetLength(0); i++)
             {

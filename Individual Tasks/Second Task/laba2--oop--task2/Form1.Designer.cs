@@ -39,41 +39,45 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(101, 95);
+            this.button1.Location = new System.Drawing.Point(13, 13);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(142, 59);
             this.button1.TabIndex = 0;
-            this.button1.Text = "прозорість";
+            this.button1.Text = "Прозорість";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(206, 94);
+            this.button2.Location = new System.Drawing.Point(172, 13);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(142, 59);
             this.button2.TabIndex = 1;
-            this.button2.Text = "колір тіла";
+            this.button2.Text = "Колір тла";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(310, 93);
+            this.button3.Location = new System.Drawing.Point(333, 13);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(142, 59);
             this.button3.TabIndex = 2;
-            this.button3.Text = "hello world";
+            this.button3.Text = "hello World";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(101, 134);
+            this.button4.Location = new System.Drawing.Point(13, 92);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(293, 23);
+            this.button4.Size = new System.Drawing.Size(462, 68);
             this.button4.TabIndex = 3;
-            this.button4.Text = "мега кнопка";
+            this.button4.Text = "Супермегакнопка";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             this.button4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button4_MouseClick);
@@ -81,39 +85,41 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(101, 212);
+            this.checkBox1.Location = new System.Drawing.Point(13, 179);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(81, 17);
+            this.checkBox1.Size = new System.Drawing.Size(291, 21);
             this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "прозорість";
+            this.checkBox1.Text = "\"супермегакнопка\" робить \"Прозорість\"";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(206, 212);
+            this.checkBox2.Location = new System.Drawing.Point(13, 229);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(52, 17);
+            this.checkBox2.Size = new System.Drawing.Size(279, 21);
             this.checkBox2.TabIndex = 5;
-            this.checkBox2.Text = "колір";
+            this.checkBox2.Text = "\"супермегакнопка\" змінює \"Колір тла\"";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(336, 212);
+            this.checkBox3.Location = new System.Drawing.Point(13, 281);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(48, 17);
+            this.checkBox3.Size = new System.Drawing.Size(303, 21);
             this.checkBox3.TabIndex = 6;
-            this.checkBox3.Text = "hello";
+            this.checkBox3.Text = "\"супермегакнопка\" виводить \"hello World\"";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(489, 421);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -121,6 +127,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
